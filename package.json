@@ -1,0 +1,25 @@
+{
+  "name": "corona-patienten-api",
+  "version": "1.0.0",
+  "description": "API wrapper for DIVI",
+  "author": "Steffen Kühne",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm-watch start",
+    "start": "functions-framework --target=diviApi",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "watch": {
+    "start": "*.js"
+  },
+  "dependencies": {
+    "jsdom": "^16.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "eslint": "^7.12.1",
+    "npm-watch": "^0.7.0"
+  }
+}
