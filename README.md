@@ -8,7 +8,7 @@ Das [DIVI-Intensivregister](https://www.intensivregister.de/#/index) ist eine wi
 
 Für die API verwenden wir die Zeitreihen-Übersicht des DIVI-Intensivregisters. Diese Ansicht bietet Diagramme zu vier verschieden Indikatoren, welche jeweils für Deutschland und die sechzehn Bundesländern bereitgestellt werden. Die Diagramme werden mit dem Diagramm-Tool [Datawrapper](https://www.datawrapper.de/) erstellt, woraus die Daten extrahiert werden: <https://www.intensivregister.de/#/intensivregister?tab=laendertabelle>
 
-Die Daten des Intensivregister können nach [vorheriger Absprache](mailto:presse@divi.de) und unter Verwendung des Quellenhinweis „DIVI-Intensivregister“, zumindest für journalistische Zwecke, frei verwendet werden.
+>Die Daten des Intensivregister können nach [vorheriger Absprache](mailto:presse@divi.de) und unter Verwendung des Quellenhinweis „DIVI-Intensivregister“, zumindest für journalistische Zwecke, frei verwendet werden.
 
 ## API
 
@@ -19,8 +19,6 @@ Für die Verwendung der Daten in Apps und interaktiven Grafiken (Datawrapper) st
 ### Parameter
 
 Welche Daten abgefragt werden können mit einem sogenannten [Query-String](https://de.wikipedia.org/wiki/Query-String) festgelegt werden. Ein Beispiel dafür wie das funktioniert gibt es weiter unten.
-
-#### area
 
 Der Parameter `area` ist verpflichtend und legt fest, für welches Gebiet Daten zurückgegeben werden sollen:
 
@@ -42,16 +40,12 @@ Der Parameter `area` ist verpflichtend und legt fest, für welches Gebiet Daten 
 - `SH`: Schleswig-Holstein
 - `TH`: Thüringen
 
-#### indicator
-
-Der Parameter `area` ist verpflichtend und legt fest, welcher Indikator abgefragt werden soll:
+Der Parameter `indicator` ist verpflichtend und legt fest, welcher Indikator abgefragt werden soll:
 
 - `Meldebereiche`: Anzahl meldender Meldebereiche
 - `Patienten`: Anzahl gemeldeter intensivmedizinisch behandelter COVID-19-Fälle
 - `Bettenstatus`: Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)
 - `Bettenanteil`: Anzahl gemeldeter intensivmedizinisch behandelter COVID-19-Fälle an Anzahl belegter Intensivbetten
-
-#### filetype
 
 Der Parameter `filetype` ist optional und legt fest in welchem Format die Daten zurückgegeben werden sollen:
 
@@ -65,6 +59,43 @@ Anzahl der Covid-19-Intensivpatienten (`indicator=Patienten`) in Bayern (`area=B
 ```text
 https://europe-west3-brdata-corona.cloudfunctions.net/diviApi/query?area=BY&indicator=Patienten&filetype=csv
 ```
+
+Die Abfrage liefert einen Liste aller verfügbaren Daten zum gewählten Indikator und Gebiet:
+
+```text
+date,faelleCovidAktuell
+"2020-10-30T11:15:00.000Z",179
+"2020-10-29T11:15:00.000Z",167
+"2020-10-28T11:15:00.000Z",147
+"2020-10-27T11:15:00.000Z",129
+"2020-10-26T11:15:00.000Z",122
+...
+"2020-03-24T11:15:00.000Z",123
+"2020-03-23T11:15:00.000Z",94
+"2020-03-22T11:15:00.000Z",82
+"2020-03-21T11:15:00.000Z",67
+"2020-03-20T11:15:00.000Z",61
+```
+
+Eine Abfrage ohne den Parameter `filetype=csv` würde die gleichen Daten im JSON-Format liefern:
+
+```javascript
+[
+  { "date": "2020-10-30T11:15:00.000Z", "faelleCovidAktuell": 179 },
+  { "date": "2020-10-29T11:15:00.000Z", "faelleCovidAktuell": 167 },
+  { "date": "2020-10-28T11:15:00.000Z", "faelleCovidAktuell": 147 },
+  { "date": "2020-10-27T11:15:00.000Z", "faelleCovidAktuell": 129 },
+  { "date": "2020-10-26T11:15:00.000Z", "faelleCovidAktuell": 122 },
+  // ...
+  { "date": "2020-03-24T11:15:00.000Z", "faelleCovidAktuell": 123 },
+  { "date": "2020-03-23T11:15:00.000Z", "faelleCovidAktuell": 94 },
+  { "date": "2020-03-22T11:15:00.000Z", "faelleCovidAktuell": 82 },
+  { "date": "2020-03-21T11:15:00.000Z", "faelleCovidAktuell": 67 },
+  { "date": "2020-03-20T11:15:00.000Z", "faelleCovidAktuell": 61 }
+]
+```
+
+Die Namen und Anzahl der Attribute, hier `faelleCovidAktuell`, sind vom jeweils gewählten Indikator abhängig.
 
 ## Verwendung
 
@@ -154,3 +185,7 @@ API-Anfrage stellen (Beispiel):
 ```console
 $ curl -X GET 'http://localhost:8080?area=BY&indicator=Patienten'
 ```
+
+## Verbesserungsvorschläge
+
+- Daten nach Datum filterbar machen (Parameter `date`)
