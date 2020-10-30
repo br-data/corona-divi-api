@@ -1,0 +1,20 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": [1, 2, { "SwitchCase": 1 }],
+    "quotes": [2, "single"],
+    "linebreak-style": [2, "unix"],
+    "semi": [2, "always"],
+    "comma-dangle": [1, "never"],
+    "no-trailing-spaces": [2, { "skipBlankLines": true }],
+    "no-console": 0
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}
