@@ -103,7 +103,8 @@ function csvToJson(csv, columnSeparator = ',', rowSeparator = '\n') {
     } else if (!isNaN(str) || !isNaN(str.replace(',', '.'))) {
       return parseFloat(str.replace(',', '.'));
     } else if (Date.parse(str.replace(/"/g, ''))) {
-      return new Date(str.replace(/"/g, ''));
+      const date = new Date(str.replace(/"/g, ''));
+      return date.toISOString().split('T')[0];
     } else {
       return str.replace(/"/g, '');
     }
