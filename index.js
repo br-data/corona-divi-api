@@ -69,8 +69,9 @@ async function getData(req, res, url) {
   const chartJsonFixed = chartJson[1].replace(/\\"/g, '"').replace(/\\\\"/g, '\\"');
   const chartJsonParsed = JSON.parse(chartJsonFixed);
   const chartData = csvToJson(chartJsonParsed.data.chartData, ',', '\\n');
+  const chartDataSorted = chartData.sort((a, b) => new Date(a.date) - new Date(b.date));
 
-  return chartData;
+  return chartDataSorted;
 }
 
 function handleResponse(req, res, data) {
