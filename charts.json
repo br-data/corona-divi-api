@@ -1,409 +1,613 @@
 [
   {
-    "chartId": "RXQND",
+    "chartId": "O8JQZ",
     "indicator": "Meldebereiche",
     "area": "Baden-Württemberg",
     "areaId": "BW"
   },
   {
-    "chartId": "TD8lL",
+    "chartId": "utuM7",
     "indicator": "Patienten",
     "area": "Baden-Württemberg",
     "areaId": "BW"
   },
   {
-    "chartId": "gilFK",
+    "chartId": "sf0AP",
     "indicator": "Bettenstatus",
     "area": "Baden-Württemberg",
     "areaId": "BW"
   },
   {
-    "chartId": "L6Gjw",
+    "chartId": "zMLYq",
     "indicator": "Bettenanteil",
     "area": "Baden-Württemberg",
     "areaId": "BW"
   },
   {
-    "chartId": "BUzXR",
+    "chartId": "XAt0x",
+    "indicator": "Betriebssituation",
+    "area": "Baden-Württemberg",
+    "areaId": "BW"
+  },
+  {
+    "chartId": "LoZc5",
+    "indicator": "Intensivkapazitäten",
+    "area": "Baden-Württemberg",
+    "areaId": "BW"
+  },
+  {
+    "chartId": "RFs5s",
     "indicator": "Meldebereiche",
     "area": "Schleswig-Holstein",
     "areaId": "SH"
   },
   {
-    "chartId": "W1dB7",
+    "chartId": "fuX4y",
     "indicator": "Patienten",
     "area": "Schleswig-Holstein",
     "areaId": "SH"
   },
   {
-    "chartId": "JQ0mv",
+    "chartId": "cutTE",
     "indicator": "Bettenstatus",
     "area": "Schleswig-Holstein",
     "areaId": "SH"
   },
   {
-    "chartId": "9Dj3t",
+    "chartId": "x7iFf",
     "indicator": "Bettenanteil",
     "area": "Schleswig-Holstein",
     "areaId": "SH"
   },
   {
-    "chartId": "bKD8H",
+    "chartId": "DBkjH",
+    "indicator": "Betriebssituation",
+    "area": "Schleswig-Holstein",
+    "areaId": "SH"
+  },
+  {
+    "chartId": "dTglL",
+    "indicator": "Intensivkapazitäten",
+    "area": "Schleswig-Holstein",
+    "areaId": "SH"
+  },
+  {
+    "chartId": "MgDZY",
     "indicator": "Meldebereiche",
     "area": "Hamburg",
     "areaId": "HH"
   },
   {
-    "chartId": "syh2p",
+    "chartId": "IrwV4",
     "indicator": "Patienten",
     "area": "Hamburg",
     "areaId": "HH"
   },
   {
-    "chartId": "rs7xr",
+    "chartId": "dRfTF",
     "indicator": "Bettenstatus",
     "area": "Hamburg",
     "areaId": "HH"
   },
   {
-    "chartId": "8qYVQ",
+    "chartId": "CE3gj",
     "indicator": "Bettenanteil",
     "area": "Hamburg",
     "areaId": "HH"
   },
   {
-    "chartId": "mOFLh",
+    "chartId": "dXB0R",
+    "indicator": "Betriebssituation",
+    "area": "Hamburg",
+    "areaId": "HH"
+  },
+  {
+    "chartId": "dL2oo",
+    "indicator": "Intensivkapazitäten",
+    "area": "Hamburg",
+    "areaId": "HH"
+  },
+  {
+    "chartId": "OFJsQ",
     "indicator": "Meldebereiche",
     "area": "NiederSachsen",
     "areaId": "NI"
   },
   {
-    "chartId": "MppQi",
+    "chartId": "NnU3D",
     "indicator": "Patienten",
     "area": "NiederSachsen",
     "areaId": "NI"
   },
   {
-    "chartId": "XZ34P",
+    "chartId": "vO3yH",
     "indicator": "Bettenstatus",
     "area": "NiederSachsen",
     "areaId": "NI"
   },
   {
-    "chartId": "8HLKa",
+    "chartId": "ExBzX",
     "indicator": "Bettenanteil",
     "area": "NiederSachsen",
     "areaId": "NI"
   },
   {
-    "chartId": "UXKT4",
+    "chartId": "cbfpA",
+    "indicator": "Betriebssituation",
+    "area": "NiederSachsen",
+    "areaId": "NI"
+  },
+  {
+    "chartId": "BldIQ",
+    "indicator": "Intensivkapazitäten",
+    "area": "NiederSachsen",
+    "areaId": "NI"
+  },
+  {
+    "chartId": "qaSRs",
     "indicator": "Meldebereiche",
     "area": "Bremen",
     "areaId": "HB"
   },
   {
-    "chartId": "DcGwo",
+    "chartId": "eKBiD",
     "indicator": "Patienten",
     "area": "Bremen",
     "areaId": "HB"
   },
   {
-    "chartId": "uFgAR",
+    "chartId": "56wFi",
     "indicator": "Bettenstatus",
     "area": "Bremen",
     "areaId": "HB"
   },
   {
-    "chartId": "JDH0j",
+    "chartId": "Ird5Z",
     "indicator": "Bettenanteil",
     "area": "Bremen",
     "areaId": "HB"
   },
   {
-    "chartId": "f2yji",
+    "chartId": "mh1Sc",
+    "indicator": "Betriebssituation",
+    "area": "Bremen",
+    "areaId": "HB"
+  },
+  {
+    "chartId": "DWvze",
+    "indicator": "Intensivkapazitäten",
+    "area": "Bremen",
+    "areaId": "HB"
+  },
+  {
+    "chartId": "fStQ0",
     "indicator": "Meldebereiche",
-    "area": "Nordrhein-Westfalen",
-    "areaId": "NW"
+    "area": "Nordrheim-Westfalen",
+    "areaId": "DE"
   },
   {
-    "chartId": "5GMPl",
+    "chartId": "zAfdV",
     "indicator": "Patienten",
-    "area": "Nordrhein-Westfalen",
-    "areaId": "NW"
+    "area": "Nordrheim-Westfalen",
+    "areaId": "DE"
   },
   {
-    "chartId": "3AQLq",
+    "chartId": "DMJcy",
     "indicator": "Bettenstatus",
-    "area": "Nordrhein-Westfalen",
-    "areaId": "NW"
+    "area": "Nordrheim-Westfalen",
+    "areaId": "DE"
   },
   {
-    "chartId": "vHwwP",
+    "chartId": "i39qA",
     "indicator": "Bettenanteil",
-    "area": "Nordrhein-Westfalen",
-    "areaId": "NW"
+    "area": "Nordrheim-Westfalen",
+    "areaId": "DE"
   },
   {
-    "chartId": "lGpvI",
+    "chartId": "Ya4yB",
+    "indicator": "Betriebssituation",
+    "area": "Nordrheim-Westfalen",
+    "areaId": "DE"
+  },
+  {
+    "chartId": "4cFYs",
+    "indicator": "Intensivkapazitäten",
+    "area": "Nordrheim-Westfalen",
+    "areaId": "DE"
+  },
+  {
+    "chartId": "YdGur",
     "indicator": "Meldebereiche",
     "area": "Hessen",
     "areaId": "HE"
   },
   {
-    "chartId": "rTS2v",
+    "chartId": "XU4tj",
     "indicator": "Patienten",
     "area": "Hessen",
     "areaId": "HE"
   },
   {
-    "chartId": "YNm9z",
+    "chartId": "FI6ua",
     "indicator": "Bettenstatus",
     "area": "Hessen",
     "areaId": "HE"
   },
   {
-    "chartId": "Np1u5",
+    "chartId": "mAtT0",
     "indicator": "Bettenanteil",
     "area": "Hessen",
     "areaId": "HE"
   },
   {
-    "chartId": "Hf3zP",
+    "chartId": "2kXs6",
+    "indicator": "Betriebssituation",
+    "area": "Hessen",
+    "areaId": "HE"
+  },
+  {
+    "chartId": "dTiGF",
+    "indicator": "Intensivkapazitäten",
+    "area": "Hessen",
+    "areaId": "HE"
+  },
+  {
+    "chartId": "EWFUh",
     "indicator": "Meldebereiche",
     "area": "Rheinland-Pfalz",
     "areaId": "RP"
   },
   {
-    "chartId": "BnBVj",
+    "chartId": "RePEq",
     "indicator": "Patienten",
     "area": "Rheinland-Pfalz",
     "areaId": "RP"
   },
   {
-    "chartId": "OmFn8",
+    "chartId": "tDSWU",
     "indicator": "Bettenstatus",
     "area": "Rheinland-Pfalz",
     "areaId": "RP"
   },
   {
-    "chartId": "7TQWg",
+    "chartId": "71Z9k",
     "indicator": "Bettenanteil",
     "area": "Rheinland-Pfalz",
     "areaId": "RP"
   },
   {
-    "chartId": "PpTVE",
+    "chartId": "iCP9d",
+    "indicator": "Betriebssituation",
+    "area": "Rheinland-Pfalz",
+    "areaId": "RP"
+  },
+  {
+    "chartId": "vvKxb",
+    "indicator": "Intensivkapazitäten",
+    "area": "Rheinland-Pfalz",
+    "areaId": "RP"
+  },
+  {
+    "chartId": "8TQF7",
     "indicator": "Meldebereiche",
     "area": "Bayern",
     "areaId": "BY"
   },
   {
-    "chartId": "neMXW",
+    "chartId": "4UzZO",
     "indicator": "Patienten",
     "area": "Bayern",
     "areaId": "BY"
   },
   {
-    "chartId": "5Tjcl",
+    "chartId": "qU4Pd",
     "indicator": "Bettenstatus",
     "area": "Bayern",
     "areaId": "BY"
   },
   {
-    "chartId": "oVvFH",
+    "chartId": "yqFw1",
     "indicator": "Bettenanteil",
     "area": "Bayern",
     "areaId": "BY"
   },
   {
-    "chartId": "JtnxP",
+    "chartId": "PPuJH",
+    "indicator": "Betriebssituation",
+    "area": "Bayern",
+    "areaId": "BY"
+  },
+  {
+    "chartId": "tE0P8",
+    "indicator": "Intensivkapazitäten",
+    "area": "Bayern",
+    "areaId": "BY"
+  },
+  {
+    "chartId": "parkV",
     "indicator": "Meldebereiche",
     "area": "Saarland",
     "areaId": "SL"
   },
   {
-    "chartId": "KXIQu",
+    "chartId": "mEcSe",
     "indicator": "Patienten",
     "area": "Saarland",
     "areaId": "SL"
   },
   {
-    "chartId": "lIvvw",
+    "chartId": "vvcRm",
     "indicator": "Bettenstatus",
     "area": "Saarland",
     "areaId": "SL"
   },
   {
-    "chartId": "Mxbdt",
+    "chartId": "0wHoY",
     "indicator": "Bettenanteil",
     "area": "Saarland",
     "areaId": "SL"
   },
   {
-    "chartId": "LRd7j",
+    "chartId": "fRuMo",
+    "indicator": "Betriebssituation",
+    "area": "Saarland",
+    "areaId": "SL"
+  },
+  {
+    "chartId": "LeVCu",
+    "indicator": "Intensivkapazitäten",
+    "area": "Saarland",
+    "areaId": "SL"
+  },
+  {
+    "chartId": "0m9bx",
     "indicator": "Meldebereiche",
     "area": "Berlin",
     "areaId": "BE"
   },
   {
-    "chartId": "AX91c",
+    "chartId": "2gP30",
     "indicator": "Patienten",
     "area": "Berlin",
     "areaId": "BE"
   },
   {
-    "chartId": "tzzE6",
+    "chartId": "2xnu6",
     "indicator": "Bettenstatus",
     "area": "Berlin",
     "areaId": "BE"
   },
   {
-    "chartId": "KcpnG",
+    "chartId": "ioPn6",
     "indicator": "Bettenanteil",
     "area": "Berlin",
     "areaId": "BE"
   },
   {
-    "chartId": "goAFk",
+    "chartId": "F6gqZ",
+    "indicator": "Betriebssituation",
+    "area": "Berlin",
+    "areaId": "BE"
+  },
+  {
+    "chartId": "Zijx0",
+    "indicator": "Intensivkapazitäten",
+    "area": "Berlin",
+    "areaId": "BE"
+  },
+  {
+    "chartId": "qnMAp",
     "indicator": "Meldebereiche",
     "area": "Brandenburg",
     "areaId": "BB"
   },
   {
-    "chartId": "Fs3RS",
+    "chartId": "fV8mA",
     "indicator": "Patienten",
     "area": "Brandenburg",
     "areaId": "BB"
   },
   {
-    "chartId": "gjVPD",
+    "chartId": "qAgG6",
     "indicator": "Bettenstatus",
     "area": "Brandenburg",
     "areaId": "BB"
   },
   {
-    "chartId": "Gh1Oq",
+    "chartId": "ExFrZ",
     "indicator": "Bettenanteil",
     "area": "Brandenburg",
     "areaId": "BB"
   },
   {
-    "chartId": "aNCNv",
+    "chartId": "mwTlc",
+    "indicator": "Betriebssituation",
+    "area": "Brandenburg",
+    "areaId": "BB"
+  },
+  {
+    "chartId": "4Jo1f",
+    "indicator": "Intensivkapazitäten",
+    "area": "Brandenburg",
+    "areaId": "BB"
+  },
+  {
+    "chartId": "Gv0V6",
     "indicator": "Meldebereiche",
     "area": "Mecklenburg-Vorpommern",
     "areaId": "MV"
   },
   {
-    "chartId": "VJRM9",
+    "chartId": "7k7g1",
     "indicator": "Patienten",
     "area": "Mecklenburg-Vorpommern",
     "areaId": "MV"
   },
   {
-    "chartId": "SOBnp",
+    "chartId": "9Fg7j",
     "indicator": "Bettenstatus",
     "area": "Mecklenburg-Vorpommern",
     "areaId": "MV"
   },
   {
-    "chartId": "k1M9X",
+    "chartId": "7F17G",
     "indicator": "Bettenanteil",
     "area": "Mecklenburg-Vorpommern",
     "areaId": "MV"
   },
   {
-    "chartId": "XWGLm",
+    "chartId": "H9X9Q",
+    "indicator": "Betriebssituation",
+    "area": "Mecklenburg-Vorpommern",
+    "areaId": "MV"
+  },
+  {
+    "chartId": "0oxwZ",
+    "indicator": "Intensivkapazitäten",
+    "area": "Mecklenburg-Vorpommern",
+    "areaId": "MV"
+  },
+  {
+    "chartId": "xpduT",
     "indicator": "Meldebereiche",
     "area": "Sachsen",
     "areaId": "SN"
   },
   {
-    "chartId": "aSNTs",
+    "chartId": "p0EZs",
     "indicator": "Patienten",
     "area": "Sachsen",
     "areaId": "SN"
   },
   {
-    "chartId": "q32tf",
+    "chartId": "N2BjE",
     "indicator": "Bettenstatus",
     "area": "Sachsen",
     "areaId": "SN"
   },
   {
-    "chartId": "C4AtK",
+    "chartId": "Fqsme",
     "indicator": "Bettenanteil",
     "area": "Sachsen",
     "areaId": "SN"
   },
   {
-    "chartId": "t3vRE",
+    "chartId": "Oc0Tf",
+    "indicator": "Betriebssituation",
+    "area": "Sachsen",
+    "areaId": "SN"
+  },
+  {
+    "chartId": "9NQsd",
+    "indicator": "Intensivkapazitäten",
+    "area": "Sachsen",
+    "areaId": "SN"
+  },
+  {
+    "chartId": "lsv2a",
     "indicator": "Meldebereiche",
     "area": "Sachsen-Anhalt",
     "areaId": "ST"
   },
   {
-    "chartId": "CFX8F",
+    "chartId": "v1MVf",
     "indicator": "Patienten",
     "area": "Sachsen-Anhalt",
     "areaId": "ST"
   },
   {
-    "chartId": "JO2JL",
+    "chartId": "t2e5F",
     "indicator": "Bettenstatus",
     "area": "Sachsen-Anhalt",
     "areaId": "ST"
   },
   {
-    "chartId": "PPsY2",
+    "chartId": "4bBpT",
     "indicator": "Bettenanteil",
     "area": "Sachsen-Anhalt",
     "areaId": "ST"
   },
   {
-    "chartId": "B1Xij",
+    "chartId": "sH8Y1",
+    "indicator": "Betriebssituation",
+    "area": "Sachsen-Anhalt",
+    "areaId": "ST"
+  },
+  {
+    "chartId": "9zEYF",
+    "indicator": "Intensivkapazitäten",
+    "area": "Sachsen-Anhalt",
+    "areaId": "ST"
+  },
+  {
+    "chartId": "zTxyM",
     "indicator": "Meldebereiche",
     "area": "Thüringen",
     "areaId": "TH"
   },
   {
-    "chartId": "0W1Wj",
+    "chartId": "TEmN3",
     "indicator": "Patienten",
     "area": "Thüringen",
     "areaId": "TH"
   },
   {
-    "chartId": "0LVdS",
+    "chartId": "HPt1g",
     "indicator": "Bettenstatus",
     "area": "Thüringen",
     "areaId": "TH"
   },
   {
-    "chartId": "3X13N",
+    "chartId": "Pyllt",
     "indicator": "Bettenanteil",
     "area": "Thüringen",
     "areaId": "TH"
   },
   {
-    "chartId": "9gDqp",
+    "chartId": "KmI1T",
+    "indicator": "Betriebssituation",
+    "area": "Thüringen",
+    "areaId": "TH"
+  },
+  {
+    "chartId": "yNqW9",
+    "indicator": "Intensivkapazitäten",
+    "area": "Thüringen",
+    "areaId": "TH"
+  },
+  {
+    "chartId": "TnXY1",
     "indicator": "Meldebereiche",
     "area": "Deutschland",
     "areaId": "DE"
   },
   {
-    "chartId": "WvhXR",
+    "chartId": "ovyiI",
     "indicator": "Patienten",
     "area": "Deutschland",
     "areaId": "DE"
   },
   {
-    "chartId": "LUsem",
+    "chartId": "RLWg1",
     "indicator": "Bettenstatus",
     "area": "Deutschland",
     "areaId": "DE"
   },
   {
-    "chartId": "k3LbD",
+    "chartId": "UIdqI",
     "indicator": "Bettenanteil",
+    "area": "Deutschland",
+    "areaId": "DE"
+  },
+  {
+    "chartId": "mhKgW",
+    "indicator": "Betriebssituation",
+    "area": "Deutschland",
+    "areaId": "DE"
+  },
+  {
+    "chartId": "TjzQb",
+    "indicator": "Intensivkapazitäten",
     "area": "Deutschland",
     "areaId": "DE"
   }
