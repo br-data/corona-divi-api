@@ -6,7 +6,7 @@ Neben der täglichen Zahl der Corona-Neuinfektionen ist auch die Zahl der Mensch
 
 Das [DIVI-Intensivregister](https://www.intensivregister.de/#/index) ist eine wichtige Datenquelle für verschiedene Indikatoren zur Auslastung des Krankenhaussystems durch die Corona-Pandemie. Seit dem 16. April 2020 sind alle relevanten Krankenhäuser zur täglichen Meldung an das Intensivregister verpflichtet. Die „Deutsche Interdisziplinären Vereinigung für Intensiv- und Notfallmedizin“, kurz DIVI, ist für die Verwaltung und Aufbereitung dieser Daten zuständig.
 
-Für die API verwenden wir die Zeitreihen-Übersicht des DIVI-Intensivregisters. Diese Ansicht bietet Diagramme zu vier verschieden Indikatoren, welche jeweils für Deutschland und die sechzehn Bundesländern bereitgestellt werden. Die Diagramme werden mit dem Diagramm-Tool [Datawrapper](https://www.datawrapper.de/) erstellt, woraus die Daten extrahiert werden: <https://www.intensivregister.de/#/intensivregister?tab=laendertabelle>
+Für die API verwenden wir die Zeitreihen-Übersicht des DIVI-Intensivregisters. Diese Ansicht bietet Diagramme zu vier verschieden Indikatoren, welche jeweils für Deutschland und die sechzehn Bundesländern bereitgestellt werden. Die Diagramme werden mit dem Diagramm-Tool [Datawrapper](https://www.datawrapper.de/) erstellt, woraus die Daten extrahiert werden: <https://www.intensivregister.de/#/aktuelle-lage/zeitreihen>
 
 >Die Daten des Intensivregister können nach [vorheriger Absprache](mailto:presse@divi.de) und unter Verwendung des Quellenhinweis „DIVI-Intensivregister“, zumindest für journalistische Zwecke, frei verwendet werden.
 
@@ -46,6 +46,8 @@ Der Parameter `indicator` ist verpflichtend und legt fest, welcher Indikator abg
 - `Patienten`: Anzahl gemeldeter intensivmedizinisch behandelter COVID-19-Fälle
 - `Bettenstatus`: Gesamtzahl gemeldeter Intensivbetten (Betreibbare Betten und Notfallreserve)
 - `Bettenanteil`: Anzahl gemeldeter intensivmedizinisch behandelter COVID-19-Fälle an Anzahl belegter Intensivbetten
+- `Betriebssituation`: Anzahl der Intensivbereiche nach gemeldeter Betriebssituation
+- `Intensivkapazitäten`: Anzahl der freien betreibbaren Behandlungskapazitäten zur invasiven Beatmung
 
 Der Parameter `filetype` ist optional und legt fest in welchem Format die Daten zurückgegeben werden sollen:
 
