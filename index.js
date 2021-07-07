@@ -64,10 +64,10 @@ async function getData(req, res, url) {
     .catch(error => handleError(req, res, error));
   const chartDom = HTMLParser.parse(chartHtml);
   const chartScript = chartDom.querySelector('body > script:nth-child(2)');
-  const chartJson = chartScript.innerHTML.match(/JSON\.parse\("(.*)"\)/i);
-  const chartJsonFixed = chartJson[1].replace(/\\"/g, '"').replace(/\\\\"/g, '\\"');
+  const chartJson = chartScript.innerHTML.match(/JSON\.parse\("(.*)"\)/i)[1];
+  const chartJsonFixed = chartJson.replace(/\\"/g, '"').replace(/[\\]+"/g, '\\"');
   const chartJsonParsed = JSON.parse(chartJsonFixed);
-  const chartData = csvToJson(chartJsonParsed.data.chartData, ',', '\\n');
+  const chartData = csvToJson(chartJsonParsed.data, ',', '\\n');
   const chartDataSorted = chartData.sort((a, b) => new Date(a.date) - new Date(b.date));
 
   return chartDataSorted;
