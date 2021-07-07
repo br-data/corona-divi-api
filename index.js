@@ -1,6 +1,5 @@
 const fetch = require('node-fetch');
-const jsdom = require('jsdom');
-const { JSDOM } = jsdom;
+const HTMLParser = require('node-html-parser');
 
 const charts = require('./charts.json');
 
@@ -56,15 +55,15 @@ async function getData(req, res, url) {
   const redirectHtml = await fetch(url)
     .then(body => body.text())
     .catch(error => handleError(req, res, error));
-  const redirectDom = new JSDOM(redirectHtml);
-  const redirectMeta = redirectDom.window.document.querySelector('head > meta');
+  const redirectDom = HTMLParser.parse(redirectHtml);
+  const redirectMeta = redirectDom.querySelector('head > meta');
   const redirectUrl = redirectMeta.getAttribute('content').split('url=')[1];
 
   const chartHtml = await fetch(redirectUrl)
     .then(body => body.text())
     .catch(error => handleError(req, res, error));
-  const chartDom = new JSDOM(chartHtml);
-  const chartScript = chartDom.window.document.querySelector('body > script:nth-child(2)');
+  const chartDom = HTMLParser.parse(chartHtml);
+  const chartScript = chartDom.querySelector('body > script:nth-child(2)');
   const chartJson = chartScript.innerHTML.match(/JSON\.parse\("(.*)"\)/i);
   const chartJsonFixed = chartJson[1].replace(/\\"/g, '"').replace(/\\\\"/g, '\\"');
   const chartJsonParsed = JSON.parse(chartJsonFixed);
