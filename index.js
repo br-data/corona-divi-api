@@ -35,7 +35,7 @@ async function handleQuery(req, res) {
   )[0];
 
   if (chart) {
-    const data = await getData(req, res, `https://datawrapper.dwcdn.net/${chart.chartId}/`);
+    const data = await getData(req, res, chart.chartId);
 
     if (data && data.length) {
       handleResponse(req, res, data);
@@ -51,26 +51,23 @@ async function handleQuery(req, res) {
   }
 }
 
-async function getData(req, res, url) {
-  const redirectHtml = await fetch(url)
+async function getData(req, res, chartId) {
+  const chartUrl = `https://datawrapper.dwcdn.net/${chartId}/`;
+  const redirectHtml = await fetch(chartUrl)
     .then(body => body.text())
     .catch(error => handleError(req, res, error));
   const redirectDom = HTMLParser.parse(redirectHtml);
   const redirectMeta = redirectDom.querySelector('head > meta');
   const redirectUrl = redirectMeta.getAttribute('content').split('url=')[1];
-
-  const chartHtml = await fetch(redirectUrl)
+  const chartVersion = redirectUrl.replace(/\/$/, '').split('/').pop();
+  const csvUrl = `https://datawrapper.dwcdn.net/${chartId}/${chartVersion}/dataset.csv`;
+  const csv = await fetch(csvUrl)
     .then(body => body.text())
     .catch(error => handleError(req, res, error));
-  const chartDom = HTMLParser.parse(chartHtml);
-  const chartScript = chartDom.querySelector('body > script:nth-child(2)');
-  const chartJson = chartScript.innerHTML.match(/JSON\.parse\("(.*)"\)/i)[1];
-  const chartJsonFixed = chartJson.replace(/\\"/g, '"').replace(/[\\]+"/g, '\\"');
-  const chartJsonParsed = JSON.parse(chartJsonFixed);
-  const chartData = csvToJson(chartJsonParsed.data, ',', '\\n');
-  const chartDataSorted = chartData.sort((a, b) => new Date(a.date) - new Date(b.date));
-
-  return chartDataSorted;
+  const json = csvToJson(csv);
+  const jsonSorted = json.sort((a, b) => new Date(a.date) - new Date(b.date));
+  
+  return jsonSorted;
 }
 
 function handleResponse(req, res, data) {
