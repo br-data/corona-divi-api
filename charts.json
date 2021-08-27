@@ -183,37 +183,37 @@
     "chartId": "fStQ0",
     "indicator": "Meldebereiche",
     "area": "Nordrheim-Westfalen",
-    "areaId": "DE"
+    "areaId": "NW"
   },
   {
     "chartId": "ovyiI",
     "indicator": "Patienten",
     "area": "Nordrheim-Westfalen",
-    "areaId": "DE"
+    "areaId": "NW"
   },
   {
     "chartId": "RLWg1",
     "indicator": "Bettenstatus",
     "area": "Nordrheim-Westfalen",
-    "areaId": "DE"
+    "areaId": "NW"
   },
   {
     "chartId": "i39qA",
     "indicator": "Bettenanteil",
     "area": "Nordrheim-Westfalen",
-    "areaId": "DE"
+    "areaId": "NW"
   },
   {
     "chartId": "mhKgW",
     "indicator": "Betriebssituation",
     "area": "Nordrheim-Westfalen",
-    "areaId": "DE"
+    "areaId": "NW"
   },
   {
     "chartId": "TjzQb",
     "indicator": "Intensivkapazitäten",
     "area": "Nordrheim-Westfalen",
-    "areaId": "DE"
+    "areaId": "NW"
   },
   {
     "chartId": "YdGur",
