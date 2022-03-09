@@ -182,37 +182,37 @@
   {
     "chartId": "fStQ0",
     "indicator": "Meldebereiche",
-    "area": "Nordrheim-Westfalen",
+    "area": "Nordrhein-Westfalen",
     "areaId": "NW"
   },
   {
-    "chartId": "ovyiI",
+    "chartId": "zAfdV",
     "indicator": "Patienten",
-    "area": "Nordrheim-Westfalen",
+    "area": "Nordrhein-Westfalen",
     "areaId": "NW"
   },
   {
-    "chartId": "RLWg1",
+    "chartId": "DMJcy",
     "indicator": "Bettenstatus",
-    "area": "Nordrheim-Westfalen",
+    "area": "Nordrhein-Westfalen",
     "areaId": "NW"
   },
   {
     "chartId": "i39qA",
     "indicator": "Bettenanteil",
-    "area": "Nordrheim-Westfalen",
+    "area": "Nordrhein-Westfalen",
     "areaId": "NW"
   },
   {
-    "chartId": "mhKgW",
+    "chartId": "Ya4yB",
     "indicator": "Betriebssituation",
-    "area": "Nordrheim-Westfalen",
+    "area": "Nordrhein-Westfalen",
     "areaId": "NW"
   },
   {
     "chartId": "TjzQb",
     "indicator": "Intensivkapazitäten",
-    "area": "Nordrheim-Westfalen",
+    "area": "Nordrhein-Westfalen",
     "areaId": "NW"
   },
   {
@@ -246,7 +246,7 @@
     "areaId": "HE"
   },
   {
-    "chartId": "dTiGF",
+    "chartId": "4cFYs",
     "indicator": "Intensivkapazitäten",
     "area": "Hessen",
     "areaId": "HE"
