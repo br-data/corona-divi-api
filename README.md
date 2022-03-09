@@ -2,13 +2,19 @@
 
 Neben der täglichen Zahl der Corona-Neuinfektionen ist auch die Zahl der Menschen, welche sich wegen Covid-19 in intensivmedizinischer Behandlung befinden, ein wichtiger Indikator für Entwicklung der Corona-Pandemie in Deutschland. Diese API stellte die jeweils aktuelle Zahl der Covid-19-Intensivpatienten sowie die Zahl der verfügbaren Intensivbetten bereit.
 
+*⚠️ Diese API ist veraltet und wird bald abgeschaltet. Die Daten können mittlerweile auch direkt über das DIVI-Intensivregister bezogen werden:*
+
+- *Datenübersicht: <https://www.intensivregister.de/#/aktuelle-lage/downloads>*
+- *Deutschland (Zeitreihe): <https://diviexchange.blob.core.windows.net/%24web/zeitreihe-deutschland.csv>*
+- *Bundesländer (Zeitreihe): <https://diviexchange.blob.core.windows.net/%24web/zeitreihe-bundeslaender.csv>*
+
 ## Daten
 
 Das [DIVI-Intensivregister](https://www.intensivregister.de/#/index) ist eine wichtige Datenquelle für verschiedene Indikatoren zur Auslastung des Krankenhaussystems durch die Corona-Pandemie. Seit dem 16. April 2020 sind alle relevanten Krankenhäuser zur täglichen Meldung an das Intensivregister verpflichtet. Die „Deutsche Interdisziplinären Vereinigung für Intensiv- und Notfallmedizin“, kurz DIVI, ist für die Verwaltung und Aufbereitung dieser Daten zuständig.
 
 Für die API verwenden wir die Zeitreihen-Übersicht des DIVI-Intensivregisters. Diese Ansicht bietet Diagramme zu vier verschieden Indikatoren, welche jeweils für Deutschland und die sechzehn Bundesländern bereitgestellt werden. Die Diagramme werden mit dem Diagramm-Tool [Datawrapper](https://www.datawrapper.de/) erstellt, woraus die Daten extrahiert werden: <https://www.intensivregister.de/#/aktuelle-lage/zeitreihen>
 
->Die Daten des Intensivregister können nach [vorheriger Absprache](mailto:presse@divi.de) und unter Verwendung des Quellenhinweis „DIVI-Intensivregister“, zumindest für journalistische Zwecke, frei verwendet werden.
+Die Daten des Intensivregister können nach [vorheriger Absprache](mailto:presse@divi.de) und unter Verwendung des Quellenhinweis „DIVI-Intensivregister“, zumindest für journalistische Zwecke, frei verwendet werden.
 
 ## API
 
